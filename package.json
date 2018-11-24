@@ -1,0 +1,21 @@
+{
+  "name": "chat-node-starter",
+  "version": "1.0.0",
+  "description": "IRC Chat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "nodemon ./server.js"
+  },
+  "author": "Hugo Knorr",
+  "license": "ISC",
+  "repository": "https://github.com/vodkhard/chat-node-starter",
+  "dependencies": {
+    "ent": "^2.2.0",
+    "express": "^4.16.4",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
