@@ -13,12 +13,27 @@
 
 <body>
 <main>
-    <section class="hero is-primary">
+    <section class="hero is-info">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title">Chat NodeJS !</h1>
             </div>
         </div>
+    </section>
+
+    <section class="container">
+        <button type="button" id="change_username">Changer de pseudo</button>
+        <form action="/" method="POST" id="form_chat">
+            <div class="field">
+                <label for="message" class="label">Votre message :</label>
+                <div class="control">
+                    <textarea class="textarea" name="message" id="message" placeholder="Votre message..." autofocus></textarea>
+                </div>
+            </div>
+            <button type="submit" class="button is-info">Envoyer</button>
+        </form>
+        <hr>
+        <div id="zone_chat"></div>
     </section>
 </main>
 
